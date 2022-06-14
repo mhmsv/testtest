@@ -10,6 +10,7 @@
     "lint": "next lint",
     "compile": "solcjs --abi --include-path node_modules/ --base-path . blockchain/voting.sol --output-dir blockchain/build"
   },
+  
   "dependencies": {
     "@truffle/hdwallet-provider": "^2.0.9",
     "bulma": "^0.9.4",
@@ -27,3 +28,4 @@
     "eslint": "^8.17.0"
   }
 }
+
