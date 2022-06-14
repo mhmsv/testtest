@@ -3,10 +3,10 @@ import Head from 'next/head'
 import Web3 from "node_modules/web3"
 
 
-import votingContractFunction from 'blockchain/Voting.js'
+import votingContractFunction from 'blockchain/voting.js'
 import { useState, useEffect } from 'react'
 
-import styles from "pages/homeBallot.module.css"
+import styles from "styles/homeBallot.module.css"
 export const home = () => {
 
     const [error, setError] = useState("");
