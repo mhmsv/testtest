@@ -1,6 +1,6 @@
-import 'node_modules/bulma/css/bulma.css'
+//import 'node_modules/bulma/css/bulma.css'
 import Head from 'next/head'
-import Web3 from "node_modules/web3"
+import web3 from "node_modules/web3"
 
 
 import votingContractFunction from 'blockchain/voting.js'
