@@ -7,9 +7,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "lint": "next lint",
-    "compile": "solcjs --abi --include-path node_modules/ --base-path . blockchain/voting.sol --output-dir blockchain/build"
-  },
+    "lint": "next lint"  },
   
   "dependencies": {
     "@truffle/hdwallet-provider": "^2.0.9",
