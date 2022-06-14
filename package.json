@@ -12,10 +12,12 @@
   },
   "dependencies": {
     "@truffle/hdwallet-provider": "^2.0.9",
+    "bulma": "^0.9.4",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "solc": "^0.8.13-fixed"
+    "solc": "^0.8.13-fixed",
+    "web3": "^1.7.3"
   },
   "devDependencielss": {
     "eslint": "8.17.0",
